@@ -1,0 +1,26 @@
+console.log("Hello selva");
+var a:number=10;
+console.log(`The value of a is ${a}`);
+var str:string="Welcome to typescript";
+console.log(`${str}`);
+var s!:string;
+s="hiii vjselva";
+console.log(`${s}`);
+var strAny:any;
+strAny=10;
+console.log(`The value of strAny ${strAny}`);
+strAny=2.5;
+console.log(`The value of strAny ${strAny}`);
+strAny=true;
+console.log(`The value of strAny ${strAny}`);
+var c:10|boolean;
+c=10;
+console.log(`The value of c ${c}`);
+c=false;
+console.log(`The value of c ${c}`);
+var d:null|boolean|undefined;
+d=null;
+console.log(`The value of d ${d}`);
+d=true;
+console.log(`The value of d ${d}`);
+
