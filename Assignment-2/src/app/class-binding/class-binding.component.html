@@ -1,0 +1,16 @@
+<p>class-binding works!</p>
+
+<h5>Angular Task-1</h5>
+<h1 [class.toogle-button]="isClicked"> Class Binding</h1>
+<button (click)="toggleStyle()">Button</button>
+<hr>
+
+<h5>Angular Task-2</h5>
+<input #data type="text" placeholder="Type Something"><br>
+<button (click)="postData(data.value)">Post</button>
+
+<h5>Angular Task-3</h5>
+<h4>Check Number is Prime Or Not</h4>
+<input #num type="number" placeholder="Please enter the number"><br>
+<button (click)="PrimeOrNot(num.value)">Check</button>
+<h2>{{status}}</h2>
