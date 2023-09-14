@@ -1,0 +1,9 @@
+<p>loginform works!</p>
+<div>
+    <h2>Login</h2>
+    <p >Login form works!</p>
+    <input #username type="text" placeholder="Enter the username"><br><br>
+    <input #password type="password" placeholder="Enter the password"><br><br>
+    <button (click)="onSubmit(username.value,password.value)">Login Page</button>
+  </div>
+  <h2>{{status}}</h2>
